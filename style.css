@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2ff;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.card {
+  width: 736px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  border-radius: 32px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.results {
+  width: 50%;
+  border-radius: 32px;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.your-result {
+  margin-top: 38px;
+  margin-bottom: 35px;
+  color: #cac9ff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.27px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+.circle h1 {
+  font-size: 72px;
+  font-weight: 800;
+
+  color: white;
+}
+.circle p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+  color: #cac9ff;
+}
+.results b {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.info {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45px;
+  width: 260px;
+  color: #cac9ff;
+  margin-bottom: 55px;
+  width: 260px;
+}
+.summary {
+  width: 50%;
+  display: flex;
+
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.title {
+  width: 104px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.27px;
+  color: #303b59;
+  margin-top: 38px;
+  margin-bottom: 28px;
+}
+.row-1,
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 17px 20px;
+  width: 288px;
+  height: 56px;
+
+  margin-bottom: 16px;
+}
+
+.btn {
+  margin-top: 25px;
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+  background-color: #303b59;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
+.row-1 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+}
+.row-2 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+}
+.row-3 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+}
+.row-4 {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.Reaction {
+  width: 71px;
+  color: #ff5555;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45;
+}
+.memort {
+  width: 68px;
+  color: #ffb21e;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45px;
+}
+
+.verbal {
+  width: 53px;
+  color: #00bb8f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45;
+}
+
+.visual {
+  width: 50px;
+  color: #1125d6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.45;
+}
+
+.great {
+  font-size: 32px;
+  width: 83px;
+  font-weight: 700px;
+  line-height: 41.7px;
+  margin-bottom: 14px;
+}
+
+.row-1 span {
+  opacity: 50%;
+}
+
+.row-2 span {
+  opacity: 50%;
+}
+
+.row-3 span {
+  opacity: 50%;
+}
+
+.row-4 span {
+  opacity: 50%;
+}
